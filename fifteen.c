@@ -191,7 +191,20 @@ bool move(int tile){
  * else false.
  */
 bool won(void){
-    
+    int i,j;
+    for(i=0;i<d;i++){
+        for(j=0;j<d;j++){
+            if((i==(d-1))&&(j==(d-1))){
+                break;
+            }
+            else{
+                if(board[i][j]!=d*i+j+1){
+                    return false;
+                }
+            }
+        }
+    }
+    return true;
 }
 
 /*void shuffle(void){
