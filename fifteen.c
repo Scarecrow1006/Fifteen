@@ -240,7 +240,7 @@ bool move_check(int tile){
     int tile_i,tile_j;
     tile_i=a_i;
     tile_j=a_j;
-    if(){
+    if(((tile_i==b_i)&&(((tile_j-b_j)==1)||((tile_j-b_j)==(-1)))) || ((tile_j==b_j)&&(((tile_i-b_i)==1)||((tile_i-b_i)==(-1))))){
         return true;
     }
     return false;
