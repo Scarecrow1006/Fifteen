@@ -1,4 +1,4 @@
-0. TODO
-1. TODO
-2. TODO
-3. TODO
+0. start board
+1. draw board
+2. check a move and make it
+3. check win condition
